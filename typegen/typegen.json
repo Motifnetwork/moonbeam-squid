@@ -1,0 +1,44 @@
+{
+  "outDir": "../src/types/generated",
+  "specVersions": "https://moonbeam.archive.subsquid.io/graphql",
+  "events": [
+    "ParachainStaking.NewRound",
+    "ParachainStaking.Rewarded",
+    "ParachainStaking.Compounded",
+    "ParachainStaking.CandidateBondedMore",
+    "ParachainStaking.CandidateBondedLess",
+    "ParachainStaking.DelegationIncreased",
+    "ParachainStaking.DelegationDecreased",
+    "ParachainStaking.Delegation",
+    "ParachainStaking.JoinedCollatorCandidates",
+    "ParachainStaking.DelegatorLeftCandidate",
+    "ParachainStaking.DelegatorLeft",
+    "ParachainStaking.CandidateLeft",
+    "ParachainStaking.DelegationRevoked",
+
+    "ParachainStaking.CollatorBondedMore",
+    "ParachainStaking.CollatorBondedLess",
+    "ParachainStaking.NominationIncreased",
+    "ParachainStaking.NominationDecreased",
+    "ParachainStaking.Nomination",
+    "ParachainStaking.NominatorLeftCollator",
+    "ParachainStaking.NominatorLeft",
+    "ParachainStaking.CollatorLeft"
+  ],
+  "calls": [
+    "Balances.transfer",
+    "Balances.force_transfer",
+    "Balances.transfer_keep_alive",
+    "Balances.transfer_all"
+  ],
+  "storage": [
+    "ParachainStaking.CandidateState",
+    "ParachainStaking.CandidateInfo",
+    "ParachainStaking.DelegatorState",
+    "ParachainStaking.TopDelegations",
+    "ParachainStaking.BottomDelegations",
+    "ParachainStaking.CollatorState2",
+    "ParachainStaking.NominatorState2",
+    "ParachainStaking.SelectedCandidates"
+  ]
+}

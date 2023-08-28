@@ -1,0 +1,23 @@
+manifestVersion: subsquid.io/v0.1
+name: bali-moonbeam2
+version: 1
+description: |-
+  giant-squid-old moonbeam
+build:
+
+deploy:
+  addons:
+    postgres: 
+  processor:
+    cmd: [ "node", "lib/processor" ] 
+  api:
+    cmd: [ "npx", "squid-graphql-server"]
+
+#scale:
+#  dedicated: true
+#  addons:
+#     postgres:
+#         storage: 200G
+#         profile: large
+#  processor:
+#     profile: large
