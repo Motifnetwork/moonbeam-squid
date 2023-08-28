@@ -1,7 +1,3 @@
-# squid-template
-
-Sample [squid](https://subsquid.io) project to demonstrate its structure and conventions.
-It accumulates [kusama](https://kusama.network) account balances and serves them via graphql API.
 
 ## Prerequisites
 
